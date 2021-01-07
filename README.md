@@ -1,7 +1,8 @@
 # Payment.js Documentation
 
-- More documentation can be found here: https://docs.fiserv.com/docs/payments/docs/
+- More documentation can be found [here](https://docs.fiserv.com/docs/payments/docs/)
 - A demo can be found [here](https://paymentjs.atelyr.com/prod)
+- Access to Payment.js can be requested [here](https://docs.firstdata.com/req/paymentjs)
 
 ## Getting Started
 
@@ -43,6 +44,4 @@ We only send webhooks to the URL you provide when registering [here](https://doc
 
 Gateway and Payment.js developer app credentials & domain are stored in config.json (https://docs.firstdata.com/req/paymentjs)
 
-Note: for the webhook callback to work, an accessible webhook url needs to be registered in the developer app for PaymentJSv2.
-
-## HTTPS
+Note: for the webhook callback to work, an accessible webhook url needs to be registered in the developer app for Payment.js.
