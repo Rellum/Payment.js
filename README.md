@@ -1,7 +1,7 @@
 # Payment.js Documentation
 
-More documentation can be found here: https://docs.fiserv.com/docs/payments/docs/
-A demo can be found [here](https://paymentjs.atelyr.com/prod)
+- More documentation can be found here: https://docs.fiserv.com/docs/payments/docs/
+- A demo can be found [here](https://paymentjs.atelyr.com/prod)
 
 ## Getting Started
 
@@ -21,10 +21,10 @@ We only send webhooks to the URL you provide when registering [here](https://doc
 
 ### Test Details
 
-Test card number: 5204740000001002
-Expiry year: 22
-Expiry month: 10
-CVV: 002
+- Test card number: 5204740000001002
+- Expiry year: 22
+- Expiry month: 10
+- CVV: 002
 
 
 ### Building the server
