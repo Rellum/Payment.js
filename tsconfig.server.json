@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "target": "es6",
+    "sourceMap": false,
+    "strict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "build/"
+  },
+  "include": [
+    "src/server/*.ts",
+    "src/common/*.ts"
+  ],
+  "exclude": ["build", "node_modules", "src/client"]
+}
