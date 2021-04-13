@@ -9,14 +9,14 @@ const https = require('https');
 
 
 const config = require('../../config.json');
-const privateKey = fs.readFileSync(`/etc/letsencrypt/live/${config.server.domain}/privkey.pem`, 'utf8');
-const certificate = fs.readFileSync(`/etc/letsencrypt/live/${config.server.domain}/cert.pem`, 'utf8');
-const ca = fs.readFileSync(`/etc/letsencrypt/live/${config.server.domain}/chain.pem`, 'utf8');
+// const privateKey = fs.readFileSync(`/etc/letsencrypt/live/${config.server.domain}/privkey.pem`, 'utf8');
+// const certificate = fs.readFileSync(`/etc/letsencrypt/live/${config.server.domain}/cert.pem`, 'utf8');
+// const ca = fs.readFileSync(`/etc/letsencrypt/live/${config.server.domain}/chain.pem`, 'utf8');
 
 const credentials = {
-	key: privateKey,
-	cert: certificate,
-	ca: ca
+	// key: privateKey,
+	// cert: certificate,
+	// ca: ca
 };
 
 const cspSrc = {
