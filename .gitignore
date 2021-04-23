@@ -3,4 +3,5 @@ node_modules
 documentation
 .vscode
 build
+config.json
 

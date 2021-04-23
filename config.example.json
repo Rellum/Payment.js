@@ -78,6 +78,6 @@
   },
 
   "server": {
-    "domain":"" // like so 'paymentjs.atelyr.com' with no http or https
+    "domain":"localhost"
   }
 }
